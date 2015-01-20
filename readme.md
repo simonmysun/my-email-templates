@@ -5,9 +5,9 @@ My own email templates. You can fork it and adjust it to fit yourself if you lik
 
 ### Preview
 
-* [Memo](http://htmlpreview.github.io/?https://github.com/simonmysun/my-email-templates/raw/master/memo.html)
-* [Paper](http://htmlpreview.github.io/?https://github.com/simonmysun/my-email-templates/raw/master/paper.html)
-* [Monochrome](http://htmlpreview.github.io/?https://github.com/simonmysun/my-email-templates/raw/master/monochrome.html)
+* [Memo](http://htmlpreview.github.io/?https://raw.githubusercontent.com/simonmysun/my-email-templates/master/memo.html)
+* [Paper](http://htmlpreview.github.io/?https://raw.githubusercontent.com/simonmysun/my-email-templates/master/paper.html)
+* [Monochrome](http://htmlpreview.github.io/?https://raw.githubusercontent.com/simonmysun/my-email-templates/master/monochrome.html)
 
 ### Licence
 MIT
