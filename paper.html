@@ -23,97 +23,115 @@
       </table>
     </div>
   </div>
-  <div style="display:block!important;max-width:600px!important;margin:20px auto!important;clear:both!important;background:#ebebeb;padding:15px;">
-    <table width="100%">
-      <tbody>
-	<tr>
-          <td width="50%">
-            <table width="100%" style="font-family:'Helvetica','Arial',sans-serif;font-size:18px;">
-              <tbody>
-		<tr>
-                  <td>
-		    <h4>
-		      &nbsp;Connect With Me:
-		    </h4>
-                    <table width="100%" style="margin-top:15px;"> 
-                      <tbody>
-			<tr>
-                          <td style="display:block;width:auto!important;text-align:center;background:#3b5998;border:1px solid #2d4473;padding:8px 0;">
-                            <a href="https://www.facebook.com/simonmysun" style="color:#ffffff!important;text-decoration:none;">
-			      Facebook
-			    </a>
-                          </td>
-                        </tr>
-                      </tbody>
-		    </table>
-                    <br>
-                    <table width="100%">
-                      <tbody>
-			<tr>
-                          <td style="display:block;width:auto!important;text-align:center;background:#287BBC;border:1px solid ##1144B3;padding:8px 0;">
-                            <a href="http://cn.linkedin.com/in/simonmysun/" style="color:#ffffff!important;text-decoration:none;">
-			      LinkedIn
-			    </a>
-                          </td>
-                        </tr>
-		      </tbody>
-		    </table>
-                    <br>
-                    <table width="100%">
-		      <tbody>
-			<tr>
-                          <td style="display:block;width:auto!important;text-align:center;background:#00acee;border:1px solid #0087bb;padding:8px 0;">
-                            <a href="https://twitter.com/simonmysun" style="color:#ffffff!important;text-decoration:none;">
-			      Twitter
-			    </a>
-                          </td>
-                        </tr>
-		      </tbody>
-		    </table>
-                  </td>
-                </tr>
-              </tbody>
-	    </table>
-          </td>
-          <td width="50%">
-            <table style="font-family:'Helvetica','Arial',sans-serif;font-size:18px;">
-              <tbody>
-		<tr>
-                  <td>
-                    <h4>
-		      Contact Info:
-		    </h4>
-                    <p>
-		      Phone: 
-		      <a href="tel:+86 15541110411" style="color:#555!important;text-decoration:none;border-bottom:1px black dotted;">
-                        +86~15541110411
-                      </a>
-		    </p>
-                    <p>
-		      Email: 
-		      <a href="mailto:i@makelove.expert" style="color:#555!important;text-decoration:none;border-bottom:1px black dotted;">
-			i@makelove.expert
-		      </a>
-		    </p>
-		    <p>
-		      Home Page: 
-		      <a href="http://i.makelove.expert/" style="color:#555!important;text-decoration:none;border-bottom:1px black dotted;">
-			http://i.makelove.expert/
-		      </a>
-		    </p>
-		    <p>
-		      <b>
-			Available for hiring! 
-		      </b>
-		    </p>
-                  </td>
-                </tr>
-              </tbody>
-	    </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <style>
+    * {
+      transition: all 0.2s ease;
+    }
+    #connect {
+      width: 600px;
+      max-width: 90%;
+      padding: 10px;
+      margin: 0 auto;
+      background: #dddddd;
+      text-align: center;
+      border: 1px solid #cccccc;
+      border-radius: 0 6px 20px 120px / 0 60px 6px 6px;
+      box-shadow: 0 0 20px -10px,0 0 60px rgba(128,128,128,.1) inset;;
+    }
+    #connect>div{
+      position: relative;
+    }
+    ul {
+      padding: 0;
+    }
+    li {
+      display: block;
+    }
+    #brief {
+      text-align: center;
+    }
+    #sns li a {
+      display: block;
+      width: auto;
+      padding: 8px 0;
+      margin: 16px 12px;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    #facebook {
+      background: #3b5998;
+      border: 1px solid #2d4473;
+    }
+    #linkedin {
+      background: #287BBC;
+      border: 1px solid #1144B3;
+    }
+    #twitter {
+      background: #00acee;
+      border: 1px solid #0087bb;
+    }
+    #contact {
+      width: 100%;
+      float: left;
+    }
+    @media (min-width: 0px) {
+      #brief {
+        width: 100%;
+        float: left;
+      }
+      #sns {
+        width: 100%;
+        float: left;
+      }
+    }
+    @media (min-width: 600px) {
+      #brief {
+        width: 35%;
+        float: left;
+      }
+      #sns {
+        width: 65%;
+        float: left;
+      }
+    }
+    #contact a {
+      color:#555;
+      text-decoration:none;
+      border-bottom:1px black dotted;
+    }
+    .clear {
+      clear: both;
+    }
+    hr {
+      color: #eeeeee;
+    }
+  </style>
+  <div id="connect">
+    <div>
+      <h2>Connect With MY Sun</h2>
+      <div id="brief">
+        <a href="http://s.gravatar.com/avatar/7dac0dcd99972cd9b2ff1fdb9949185d?s=400">
+  	<img id="avatar" src="http://s.gravatar.com/avatar/7dac0dcd99972cd9b2ff1fdb9949185d?s=150" alt="MY Sun's Avatar">
+        </a>
+        <p>He is nothing now. </p>
+      </div>
+      <div id="sns">
+        <ul>
+  	<li><a id="facebook" href="https://facebook.com/simonmysun">Facebook</a></li>
+  	<li><a id="linkedin" href="https://linkedin.com/in/simonmysun">LinkedIn</a></li>
+  	<li><a id="twitter" href="https://twitter.com/simonmysun">Twitter</a></li>
+        </ul>
+      </div>
+      <div id="contact">
+        <hr>
+        <ul>
+  	<li id="tel">TEL: <code><a href="tel:+86 15541110411" target="_blank">+86~15541110411</a></code></li>
+  	<li id="email">Email: <code><a href="mailto:i@makelove.expert" target="_blank">i@makelove.expert</a></code></li>
+  	<li id="homepage">Home Page: <code><a href="http://i.makelove.expert" target="_blank">http://i.makelove.expert/</a></code></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
   </div>
 </div>
 <!--Template End-->
